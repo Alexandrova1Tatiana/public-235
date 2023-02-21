@@ -1,9 +1,8 @@
-dark=input ("Вы хотите спать (Да, Нет, Не знаю) ")
-if dark ==
-"Да":
-print ("Идите спать")
-elif dark=="Не знаю":
-print (' Подумайте еще")
-else:
-print ( 'Идите гулять')
-
+w = int(input()) 
+r = int(input()) 
+if w > r: 
+    n3 = w - r 
+    elif w < r : 
+        u = w + r 
+        else: u = w 
+        print(u)
