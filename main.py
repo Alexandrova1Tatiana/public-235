@@ -1,5 +1,4 @@
-x = int(input())
-if x > 0:
-    print("1")
-else:
-    print("-1")
+n =int(input("Ввод высоты"))
+m = int(input("Ввод основания"))
+z =int(input("Ввод Основания"))
+print(n*(m+z)/2)
