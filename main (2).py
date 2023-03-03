@@ -1,8 +1,6 @@
-w = int(input()) 
-r = int(input()) 
-if w > r: 
-    n3 = w - r 
-    elif w < r : 
-        u = w + r 
-        else: u = w 
-        print(u)
+n =int(input("Ввод первого числа"))
+m = int(input("Ввод второго числа"))
+print("Сумма",n+m)
+print("Произведение",n*m)
+print("Разность",n-m)
+print("Частное",n/m)
