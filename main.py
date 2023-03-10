@@ -1,4 +1,5 @@
-n =int(input("Ввод высоты"))
-m = int(input("Ввод основания"))
-z =int(input("Ввод Основания"))
-print(n*(m+z)/2)
+a = int(input("Введите число"))
+if a<0:
+    print("Ответ:",a**2)
+elif a>0: 
+    print("Ответ:",1/(a**2))
