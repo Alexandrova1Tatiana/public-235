@@ -1,6 +1,7 @@
-n =int(input("Ввод первого числа"))
-m = int(input("Ввод второго числа"))
-print("Сумма",n+m)
-print("Произведение",n*m)
-print("Разность",n-m)
-print("Частное",n/m)
+a = int(input("Введите в км/час"))
+b = float(input("Введите в футах"))
+c = b*0,45
+if a>c: 
+    print("c наименьшее")
+elif a<c: 
+    print("a наименьшее")
