@@ -1,6 +1,8 @@
-a = float(input("Введите число"))
-b = float(input("Введите число"))
-if a>b: 
-    print("b наименьшее")
-elif a<b: 
-    print("a наименьшее")
+x = int(input("Введите х"))
+a = int(input("Введите a")
+b = int(input("Введите b"))
+c= int(input("Введите c"))
+if x< (3,14/4)
+    print(c/b)
+else:
+    print(a/b)
