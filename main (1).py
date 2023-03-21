@@ -1,8 +1,7 @@
-x = int(input("Введите х"))
-a = int(input("Введите a")
-b = int(input("Введите b"))
-c= int(input("Введите c"))
-if x< (3,14/4)
-    print(c/b)
-else:
-    print(a/b)
+a=int(input("Введите значение а:"))
+b=int(input("Введите значение b:"))
+c=int(input("Введите значение c:"))
+p=(a+b+c)/2
+s=(p*(p-a)*(p-b)*(p-c))**(1/2)
+print("Площадь:",s)
+print("Периметр:",p)
