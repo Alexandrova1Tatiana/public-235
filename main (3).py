@@ -1,13 +1,5 @@
-z=0
-while z<20:
-    z=z+2
-    print("Ответ",z)
-
-print("Часть 2")
-v=-1
-r=-19
-while r<v:
-    v=v-3
-    print("Ответ",v)
-print("Конец")
-    
+q= 1.1
+w = 21.1
+while q<21.1:
+    q=q+1 
+    print(q)
