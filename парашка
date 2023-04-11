@@ -1,8 +1,8 @@
-a= int(input("Введите число а:"))
-b= int(input("Введите число b:"))
-if a>b:
+n = int(input("Введите число:"))
+if n < 1:
     print("Ошибка")
 else:
-    while a<b-1:
-        b=b-1
-        print(b)
+    x = 1
+    while (3 * x) < n:
+        x += 1
+        print(x)
