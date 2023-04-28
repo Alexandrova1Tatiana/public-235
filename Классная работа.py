@@ -1,4 +1,4 @@
-x = 201
-while x%17 != 0:
-    x += 1
-print(x)
+x=1
+for x in range(1,11):
+    print(2**x)
+    x+=1
