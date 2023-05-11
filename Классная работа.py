@@ -1,5 +1,4 @@
-x = 78,60
-q= 1
-for x in range (1,20,1):
-    print(q*x)
-    q+=x
+q= 1.1
+for x in range (1,22,1):
+    print(q)
+    q += 1
