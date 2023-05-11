@@ -1,4 +1,5 @@
-q= 0
-for z in range (2,20,):
-    q += 2
-    print(q**(1/2))
+q= int(input("Введите цену за килограмм :"))
+z=1
+for z in range (2,10,):
+    print(q * z)
+    z += 1
