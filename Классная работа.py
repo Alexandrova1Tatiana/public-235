@@ -1,4 +1,7 @@
-x= 2
-for x in range (0, 21):
-    print(x)
-    x += 2
+a=int (input ("Введите а:"))
+b=int (input ("Введите b:"))
+x=a
+for x in range (a,b+1) :
+    y= x**(1/2)
+    print("Ответ :",x,y)
+    x+= 1
