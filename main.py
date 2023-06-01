@@ -1,5 +1,11 @@
-s゠ 2.1
-f = 0.1
-While s < 2.9:
-    print (s + f)
-s = 0.1
+moth = int(input("Введите число месяца: "))
+def season(moth):
+    if moth == 12 or moth < 3:
+        print("Зима")
+    elif moth == 3 or moth < 6:
+        print("Весна")
+    elif moth == 6 or moth < 9:
+        print("Лето")
+    else:
+        print("Осень")
+season(moth)
